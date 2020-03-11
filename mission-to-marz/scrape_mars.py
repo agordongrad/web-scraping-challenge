@@ -5,6 +5,7 @@ from bs4 import BeautifulSoup
 from datetime import datetime
 import os
 import time
+
 def init_browser():
     # Capture path to Chrome Driver & Initialize browser
     executable_path = {'executable_path':"chromedriver.exe"}
